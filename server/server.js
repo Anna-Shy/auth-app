@@ -6,8 +6,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const SECRET_KEY =
-  "b1a7e9c413d1f9d4aee99cde0b7e4b7a6c3f1f2a8f3d8e7b2a1c6d4e8f9b3c5";
+const SECRET_KEY = process.env.SECRET_KEY;
 const REG_EXP_PASSWORD =
   /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,20}$/;
 
