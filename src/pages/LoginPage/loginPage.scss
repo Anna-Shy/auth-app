@@ -1,0 +1,18 @@
+@import "../../styles/variables.scss";
+
+.LoginPage {
+  &__main {
+    min-height: 100vh;
+    padding: 20px;
+    background-color: $white-main-bg;
+
+    &-text {
+      text-align: center;
+    }
+
+    &-link {
+      color: $blue-color;
+      font-weight: $fontBold;
+    }
+  }
+}

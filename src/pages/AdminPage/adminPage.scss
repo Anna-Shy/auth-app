@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+@import "../../styles/responsive.scss";
+
+.AdminPage {
+  &__main {
+    min-height: 100vh;
+    padding: 20px;
+    background-color: $white-main-bg;
+  }
+}
